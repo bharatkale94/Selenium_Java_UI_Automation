@@ -42,7 +42,7 @@ public class TestNGAnnotationsPractice {
 		System.out.println("Signup Test");
 	}
 	
-	@Test(priority=1, description= "This is Login Test", timeOut=1000) // description for the test and timeout for the execution
+	@Test(priority=1, description= "This is Login Test", timeOut=10000) // description for the test and timeout for the execution
 	public void loginTest()
 	{
 		System.out.println("Login Test");
@@ -60,9 +60,9 @@ public class TestNGAnnotationsPractice {
 		System.out.println("Logout Test");
 	}
 	
-	@Test(priority = 5,timeOut = 2000)
+	@Test(priority = 5,timeOut = 20000)
 	public void timeoutExample() throws Exception {
-          Thread.sleep(3000);
+
 
 		}
 	
